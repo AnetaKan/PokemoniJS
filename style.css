@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: #ffcb05;
+    -webkit-text-stroke: 1px #2a75bb;
+    
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    background-color: #2a75bb;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ #pokemon-form label{
+   display: block;
+   padding: 5px;
+ }
+
+ #pokemon-form input{
+    border-radius: 5px;
+ }
+
+h2 {
+  color: #ffcb05;
+  -webkit-text-stroke: 1px #2a75bb;
+}
+
+img {
+  background-color: #2a75bb;
+  border-radius: 5px;
+}
+

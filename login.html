@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+    <title>Pokemoni</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+ </head>
+
+ <body>
+      <h1> Pokemoni</h1>
+
+      <div class="login">
+         <h2> Login: </h2>
+         <form id="pokemon-form">
+
+            <label for="username">Username: </label> <br/>
+            <input type="text" id="username" name="username" 
+            placeholder="Enter your username" />
+
+            <label for = "password">Password: </label> <br/>
+            <input type = "password" id="password" name="password"
+             placeholder="Enter your password" /> 
+
+             <input type ="submit" value="Login"/>
+
+         </form>
+      </div>
+
+      <div class="pokemonList">
+         <h2> Who is that pokemon?</h2>
+         <ul id="pokemon-list"></ul>
+      </div>
+      <script src="index.js"></script>
+ </body>
+
+</html>
